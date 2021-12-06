@@ -1,0 +1,26 @@
+{
+    "name": "test",
+    "version": "0.0.1",
+    "description": "A core module including ECS and DI container.",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "types": "es/index.d.ts",
+    "unpkg": "dist/index.umd.min.js",
+    "files": [
+      "package.json",
+      "dist",
+      "es",
+      "lib",
+      "LICENSE",
+      "README.md"
+    ],
+    "dependencies": {
+      "father-build": "^1.2.4",
+      "typescript": "^4.3.4",
+      "tslib": "^2.3.1"
+    },
+    "scripts": {
+        "build": "father build"
+    }
+  }
+  
